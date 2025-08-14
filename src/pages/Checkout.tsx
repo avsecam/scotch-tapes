@@ -25,7 +25,7 @@ interface CheckoutForm {
   cvv: string
 }
 
-const Checkout = ({ cart, removeFromCart, updateQuantity, getCartTotal, setCart }: CheckoutProps) => {
+const Checkout = ({ cart, removeFromCart, updateQuantity, setCart }: CheckoutProps) => {
   const [formData, setFormData] = useState<CheckoutForm>({
     firstName: '',
     lastName: '',
