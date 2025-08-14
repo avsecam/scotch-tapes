@@ -10,7 +10,7 @@ const Header = ({ cartCount }: HeaderProps) => {
     <header className="header">
       <div className="header-container">
                  <Link to="/" className="logo">
-           <h1>Tape Store</h1>
+           <img src={'https://logodix.com/logo/1267096.png'} alt="logo" height={60} />
          </Link>
         <nav className="nav">
           <Link to="/" className="nav-link">Products</Link>
